@@ -69,6 +69,7 @@ Le prompt est similaire aux training phrases. Mettons en 3.
 Les followup intents sont des intents normaux qui en suivent d'autres, pour donner l'impression d'avoir une discution qui s'enchaine. Pour en créer un, mettez la souris sur l'intent pour lequel vous voudriez créer une suite, et cliquez sur "Add follow-up intent".
 
 Il y a une multitude de followups déjà faits, tels que "Oui", "Non", etc...
+Si vous voulez un followup intent vide pour pouvoir le customiser à votre guise, cliquez sur 'custom'
 Choisissez celui que vous voulez et c'est fait, vous avez votre followup.
 
 #### LES TESTS
