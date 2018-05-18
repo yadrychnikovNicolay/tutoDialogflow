@@ -49,3 +49,34 @@ Les entités sont des variables prédéfinies, généralement des mots-clés, av
 Lorsque vous créez une entité, nommez là de manière claire et concise, puis, définissez une valeur et ses synonymes. Reprenons notre exemple sur le booking d'une room, imaginons que vous voulez que l'utilisateur rentre le nom de la room qu'il veut booker. Voici à quoi ressemblerait votre entité.
 
 ![alt-text](./img/room.png "Book a room example")
+
+#### Revenons en aux Action et Parametres.
+
+Nommons notre action en rapport avec ce qu'elle fait, dans notre cas c'est roomBooking.
+Mettons le en required, le nom du paramètre sera roomName, donnez lui l'entité que vous venez de créer, donc @roomName, définissez le nom de la valeur, prenons $room (le @ et le $ pour l'entité et la valeur est nécessaire). Ignorons le IS LIST.
+
+Jusqu'ici votre action devrait ressembler à ça :
+
+![alt-text](./img/actionRoom.png "Action 1")
+
+Le prompt permet de définir la question(ou la phrase) que le bot va poser pour récupérer la variable.
+Le prompt est similaire aux training phrases. Mettons en 3.
+
+![alt-text](./img/actionRoom2.png "Action 2")
+
+#### LES FOLLOWUP INTENTS
+
+Les followup intents sont des intents normaux qui en suivent d'autres, pour donner l'impression d'avoir une discution qui s'enchaine. Pour en créer un, mettez la souris sur l'intent pour lequel vous voudriez créer une suite, et cliquez sur "Add follow-up intent".
+
+Il y a une multitude de followups déjà faits, tels que "Oui", "Non", etc...
+Choisissez celui que vous voulez et c'est fait, vous avez votre followup.
+
+#### LES TESTS
+
+Vous pouvez tester vos intents directement sur la page, en haut a droite vous avez la zone de test.
+
+![alt-text](./img/test.png "Testing intents")
+
+#### LE RESTE
+
+Pour le reste, voyez la documentation google. (Si vuos faites beaucoup de followup intents, faites attention au lifespan, ou la durée de vie des variables, elles peuvent causer porblème.)
