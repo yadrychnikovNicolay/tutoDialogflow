@@ -60,7 +60,7 @@ Jusqu'ici votre action devrait ressembler à ça :
 ![alt-text](./img/actionRoom.png "Action 1")
 
 Le prompt permet de définir la question(ou la phrase) que le bot va poser pour récupérer la variable.
-Le prompt est similaire aux training phrases. Mettons en 3.
+Le prompt est similaire aux training phrases. Mettons en 4.
 
 ![alt-text](./img/actionRoom2.png "Action 2")
 
@@ -80,4 +80,4 @@ Vous pouvez tester vos intents directement sur la page, en haut a droite vous av
 
 #### LE RESTE
 
-Pour le reste, voyez la documentation google. (Si vuos faites beaucoup de followup intents, faites attention au lifespan, ou la durée de vie des variables, elles peuvent causer porblème.)
+Pour le reste, voyez la documentation google. (Si vous faites beaucoup de followup intents, faites attention au lifespan, ou la durée de vie des variables, elles peuvent causer porblème.)
